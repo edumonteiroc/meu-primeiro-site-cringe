@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="cadastro.css">
+
+</head>
+<body>
+    
+    <header>
+      <nav class="navbar navbar-expand-lg  bg-light">
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Receitas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Cadastro</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <strong><h1 class="title">Efetue seu cadastro</h1></strong>
+  
+    <forms class="formulario">
+      <label class="nome-titulo">Nome</label> <input class="nome" type="text" name="nome" required><br/>
+      <label class="email-titulo">E-mail</label> <input class="email" type="email" name="email" required><br/>
+      <label class="cep-titulo">Cep</label> <input class="cep" type="number" name="cep" required><br/>
+      <label class="rua-titulo">Rua</label> <input class="rua" type="text" name="rua" required><br/>
+      <label class="numero-titulo">Numero</label> <input class="numero" type="number"  required>
+      <label class="complemento-titulo">Complemento</label> <input class="complemento" type="text" required><br/>
+      <label class="cidade-titulo">Cidade</label> <input class="cidade" type="text"  required>
+      <label class="uf-titulo">UF</label> <input class="uf" type="text" required>
+      <button type="submit">Cadastrar</button>
+    </forms>
+  
+    <footer class="rights">
+      <p>&copy;Jurema 2022</p>
+    </footer>
+
+
+</body>
+</html>
+

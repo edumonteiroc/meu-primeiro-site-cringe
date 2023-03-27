@@ -1,0 +1,124 @@
+body{
+    background-color: rgb(231, 167, 130);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.nome-titulo{
+    margin-left: 14px;
+    margin-right: 200px;
+}
+.nome{
+    width: 600px;
+    border-radius: 8px;
+    height: 40px;
+    border: none;
+}
+.email-titulo{
+    margin-left: 14px;
+    margin-right: 199px;
+}
+.email{
+    width: 600px;
+    border-radius: 8px;
+    height: 40px;
+    border: none;
+    margin-top: 10px;
+}
+.cep-titulo{
+    margin-left: 14px;
+    margin-right: 215px;
+}
+.cep{
+    width: 300px;
+    border-radius: 8px;
+    height: 40px;
+    border: none;
+    margin-top: 10px;
+}
+.rua-titulo{
+    margin-left: 14px;
+    margin-right: 215px;
+}
+.rua{
+    width: 600px;
+    border-radius: 8px;
+    height: 40px;
+    border: none;
+    margin-top: 10px;
+}
+.numero-titulo{
+    margin-left: 14px;
+    margin-right: 182px;
+}
+.numero{
+    border-radius: 8px;
+    height: 40px;
+    border: none;
+    margin-top: 10px;
+}
+.complemento-titulo{
+    margin-left: 10px;
+    margin-right: 25px;
+}
+.complemento{
+    width: 270px;
+    border-radius: 8px;
+    height: 40px;
+    border: none;
+    margin-top: 10px;
+}
+.cidade-titulo{
+    margin-left: 14px;
+    margin-right: 190px;
+}
+.cidade{
+    width: 400px;
+    border-radius: 8px;
+    height: 40px;
+    border: none;
+    margin-top: 10px;
+}
+.uf-titulo{
+    margin-left: 10px;
+    margin-right: 25px;
+}
+.uf{
+    width: 136px;
+    border-radius: 8px;
+    height: 40px;
+    border: none;
+    margin-top: 10px;
+}
+button{
+    margin-left: 40px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 8px;
+    background-color: rgb(65, 61, 61);
+    color: white;
+    border: none;
+}
+
+.title{
+    margin-left: 14px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.rights p{
+    color: white;
+    text-align: center;
+    height: 9px;
+}
+.rights{
+    background-color: black;
+    margin-top: 97px;
+    padding: 0.5px;
+    
+}
